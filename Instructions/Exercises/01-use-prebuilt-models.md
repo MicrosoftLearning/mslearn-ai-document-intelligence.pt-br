@@ -1,7 +1,7 @@
 ---
 lab:
   title: Usar modelos predefinidos da Informação de Documentos
-  module: Module 11 - Reading Text in Images and Documents
+  module: Module 6 - Document Intelligence
 ---
 
 # Usar modelos predefinidos da Informação de Documentos
@@ -50,11 +50,11 @@ Agora vamos explorar o aplicativo que usa o SDK do serviço Informação de Docu
 > **Dica**: se você já clonou o repositório **mslearn-ai-document-intelligence**, abra-o no Visual Studio Code. Caso contrário, siga estas etapas para cloná-lo em seu ambiente de desenvolvimento.
 
 1. Inicie o Visual Studio Code.
-1. Abra a paleta (SHIFT+CTRL+P) e execute um comando **Git: Clone** para clonar o repositório `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` em uma pasta local (não importa qual pasta).
-1. Após o repositório ter sido clonado, abra a pasta no Visual Studio Code.
-1. Aguarde enquanto arquivos adicionais são instalados para oferecer suporte aos projetos de código C# no repositório.
+1. Abra a paleta (SHIFT+CTRL+P) e execute o comando **Git: Clone** para clonar o repositório `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` em uma pasta local (não importa qual pasta).
+1. Depois que o repositório for clonado, abra a pasta no Visual Studio Code.
+1. Aguarde enquanto os arquivos adicionais são instalados para dar suporte aos projetos de código C# no repositório.
 
-    > **Observação**: se for solicitado para você adicionar os ativos necessários para compilar e depurar, selecione **Agora não**. Se aparecer a mensagem *Um projeto de função do Azure foi detectado na pasta*, pode fechar essa mensagem.
+    > **Observação**: se você for solicitado a adicionar ativos necessários para compilar e depurar, selecione **Agora não**. Se aparecer a mensagem *Um projeto de função do Azure foi detectado na pasta*, pode fechar essa mensagem.
 
 ## Configurar seu aplicativo
 
@@ -210,7 +210,7 @@ Agora você pode usar o SDK para avaliar o arquivo pdf.
 
 O programa exibe o nome do fornecedor, o nome do cliente e o total da fatura com os níveis de confiança. Compare os valores relatados com a fatura de exemplo que você abriu no início desta seção.
 
-## Limpar
+## Limpeza
 
 Quando terminar de usar o recurso do Azure, lembre-se de excluir o recurso no [portal do Azure](https://portal.azure.com/?azure-portal=true) para evitar mais cobranças.
 
