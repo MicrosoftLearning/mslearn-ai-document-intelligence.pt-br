@@ -44,11 +44,11 @@ Para criar um modelo composto, primeiro precisamos criar dois ou mais modelos pe
 1. Em **Meus Projetos**, selecione **+ Criar um projeto**.
 1. Na caixa de texto **Nome do projeto**, digite **1040 Forms** e selecione **Continuar**.
 1. Na página **Configurar recurso de serviço**, na lista suspensa **Assinatura**, selecione sua assinatura do Azure.
-1. Na lista suspensa **Grupo de recursos**, selecione o **DocumentIntelligenceResources&lt;xxxx&gt** criado para você.
-1. Na lista suspensa **Inteligência de Documentos de IA do Azure ou Recurso de Serviço de IA do Azure**, selecione **DocumentIntelligence&lt;xxxx&gt**
+1. Na lista suspensa **Grupo de recursos**, selecione o **DocumentIntelligenceResources&lt;xxxx&gt;** criado para você.
+1. Na lista suspensa **IA do Azure para Informação de Documentos ou Recurso do Serviço de IA do Azure**, selecione **DocumentIntelligence&lt;xxxx&gt;**.
 1. Na lista suspensa **versão da API**, certifique-se de que **2023-10-31-preview** esteja selecionado e, em seguida, selecione **Continuar**.
 1. Na página **Conectar fonte de dados de treinamento**, na lista suspensa **Assinatura**, selecione sua assinatura do Azure.
-1. Na lista suspensa **Grupo de recursos**, selecione **DocumentIntelligenceResources&lt;xxxx&gt**.
+1. Na lista suspensa **Grupo de recursos**, selecione **DocumentIntelligenceResources&lt;xxxx&gt;**.
 1. Na lista suspensa **Conta de armazenamento**, selecione a única conta de armazenamento listada. Se você tiver várias contas de armazenamento na sua assinatura, escolha a que começa com *docintelstorage*
 1. Na lista suspensa **Contêiner de blob**, selecione **1040examples** e clique em **Continuar**.
 1. Na página **Examinar e criar** , selecione **Criar projeto**.
@@ -91,11 +91,11 @@ Agora, você precisa criar um segundo modelo, que você vai treinar para os exem
 1. Em **Meus Projetos**, selecione **+ Criar um projeto**.
 1. Na caixa de texto **Nome do projeto**, digite **1099 Forms** e selecione **Continuar**.
 1. Na página **Configurar recurso de serviço**, na lista suspensa **Assinatura**, selecione sua assinatura do Azure.
-1. Na lista suspensa **Grupo de recursos**, selecione **DocumentIntelligenceResources&lt;xxxx&gt**.
-1. Na lista suspensa **Inteligência de Documentos de IA do Azure ou Recurso de Serviço de IA do Azure**, selecione **DocumentIntelligence&lt;xxxx&gt**
+1. Na lista suspensa **Grupo de recursos**, selecione **DocumentIntelligenceResources&lt;xxxx&gt;**.
+1. Na lista suspensa **IA do Azure para Informação de Documentos ou Recurso do Serviço de IA do Azure**, selecione **DocumentIntelligence&lt;xxxx&gt;**.
 1. Na lista suspensa **versão da API**, certifique-se de que **20223-10-31-preview** esteja selecionado e, em seguida, selecione **Continuar**.
 1. Na página **Conectar fonte de dados de treinamento**, na lista suspensa **Assinatura**, selecione sua assinatura do Azure.
-1. Na lista suspensa **Grupo de recursos**, selecione **DocumentIntelligenceResources&lt;xxxx&gt**.
+1. Na lista suspensa **Grupo de recursos**, selecione **DocumentIntelligenceResources&lt;xxxx&gt;**.
 1. Na lista suspensa **Conta de armazenamento**, selecione a única conta de armazenamento listada.
 1. Na lista suspensa **Contêiner de blob**, selecione **1099examples** e clique em **Continuar**.
 1. Na página **Examinar e criar** , selecione **Criar projeto**.
