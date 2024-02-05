@@ -33,6 +33,8 @@ Usaremos um script para criar o recurso da IA do Azure para Informação de Docu
    ./setup.ps1
    ```
 
+   > **IMPORTANTE**: O último recurso criado pelo script é o serviço de IA do Azure para Informação de Documentos. Se esse comando falhar devido a você já ter um recurso de camada F0, use esse recurso para este laboratório ou crie um manualmente usando a camada S0 no portal do Azure.
+
 ## Criar o modelo personalizado 1040 Forms
 
 Para criar um modelo composto, primeiro precisamos criar dois ou mais modelos personalizados. Para criar o primeiro modelo personalizado:
