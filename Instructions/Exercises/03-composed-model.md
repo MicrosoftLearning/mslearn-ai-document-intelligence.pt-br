@@ -62,14 +62,14 @@ Agora, vamos rotular os campos nos formulários de exemplo:
 
 1. Na página **Dados do rótulo**, no canto superior direito da página, selecione **+ Adicionar um campo** e, em seguida, **Campo**.
 1. Digite **FirstName** e pressione *Enter*.
-1. No documento, selecione **John** e depois **FirstName**.
-1. No canto superior direito da página, selecione **+** e depois **Campo**.
+1. Selecione o documento chamado **f1040_1.pdf** na lista à esquerda, selecione **João** e, em seguida, selecione **FirstName**.
+1. No canto superior direito da página, selecione **+ Adicionar um campo** e depois **Campo**.
 1. Digite **LastName** e pressione *Enter*.
 1. No documento, selecione **Doe** e depois **LastName**.
-1. No canto superior direito da página, selecione **+** e depois **Campo**.
+1. No canto superior direito da página, selecione **+ Adicionar um campo** e depois **Campo**.
 1. Digite **City** e pressione *Enter*.
 1. No documento, selecione **Los Angeles** e depois **City**.
-1. No canto superior direito da página, selecione **+** e depois **Campo**.
+1. No canto superior direito da página, selecione **+ Adicionar um campo** e depois **Campo**.
 1. Digite **State** e pressione *Enter*.
 1. No documento, selecione **CA** e depois **State**.
 1. Repita o processo de rotulagem para os formulários restantes na lista à esquerda, usando os rótulos que você criou. Rotule os mesmos quatro campos: *FirstName*, *LastName*, *City* e *State*.
@@ -107,16 +107,16 @@ Agora, você precisa criar um segundo modelo, que você vai treinar para os exem
 
 Agora, rotule os formulários de exemplo com alguns campos:
 
-1. Na página **Dados de rótulo**, no canto superior direito da página, selecione **+** e depois **Campo**.
+1. Na página **Dados do rótulo**, no canto superior direito da página, selecione **+ Adicionar um campo** e, em seguida, **Campo**.
 1. Digite **FirstName** e pressione *Enter*.
-1. No documento, selecione **John** e depois **FirstName**.
-1. No canto superior direito da página, selecione **+** e depois **Campo**.
+1. Selecione o documento chamado **f1099msc_payer.pdf**, selecione **João** e, em seguida, selecione **FirstName**.
+1. No canto superior direito da página, selecione **+ Adicionar um campo** e depois **Campo**.
 1. Digite **LastName** e pressione *Enter*.
 1. No documento, selecione **Doe** e depois **LastName**.
-1. No canto superior direito da página, selecione **+** e depois **Campo**.
+1. No canto superior direito da página, selecione **+ Adicionar um campo** e depois **Campo**.
 1. Digite **City** e pressione *Enter*.
 1. No documento, selecione **New Haven** e depois **City**.
-1. No canto superior direito da página, selecione **+** e depois **Campo**.
+1. No canto superior direito da página, selecione **+ Adicionar um campo** e depois **Campo**.
 1. Digite **State** e pressione *Enter*.
 1. No documento, selecione **CT** e depois **State**.
 1. Repita o processo de rotulagem para os formulários restantes na lista à esquerda. Rotule os mesmos quatro campos: *FirstName*, *LastName*, *City* e *State*.

@@ -36,10 +36,11 @@ Vamos começar usando o **Estúdio da IA do Azure para Informação de Documento
 
     ![Captura de tela mostrando a página de leitura no Estúdio da IA do Azure para Informação de Documentos.](../media/read-german-sample.png#lightbox)
 
+1. No canto superior esquerdo, selecione **Analisar opções** e habilite a caixa de seleção **Idioma** ( em **Detecção opcional**) no painel **Analisar opções** e clique em **Salvar**. 
 1. No canto superior esquerdo, selecione **Executar análise**.
 1. Quando a análise é concluída, o texto extraído da imagem é mostrado à direita na guia **Conteúdo**. Examine esse texto e compare-o com o texto na imagem original para ver a precisão.
 1. Selecione a guia **Resultado**. Essa guia exibe o código JSON extraído. 
-1. Role até a parte inferior do código JSON na guia **Resultado**. Observe que o modelo de leitura detectou o idioma de cada trecho. A maioria dos trechos está em alemão (código de idioma `de`), mas o último trecho está em inglês (código de idioma `en`).
+1. Role até a parte inferior do código JSON na guia **Resultado**. Observe que o modelo de leitura detectou o idioma de cada trecho. A maioria dos intervalos está em alemão (código de idioma `de`), mas você pode encontrar outros códigos de idioma nos intervalos (por exemplo, inglês - código de idioma`en` - em um dos últimos intervalos).
 
     ![Captura de tela que mostra a detecção do idioma para dois intervalos nos resultados do modelo de leitura no Estúdio da IA do Azure para Informação de Documentos.](../media/language-detection.png#lightbox)
 
@@ -137,7 +138,6 @@ Agora você pode usar o SDK para avaliar o arquivo pdf.
 
     ```csharp
     AnalyzeDocumentOperation operation = await client.AnalyzeDocumentFromUriAsync(WaitUntil.Completed, "prebuilt-invoice", fileUri);
-    await operation.WaitForCompletionAsync();
     ```
 
     **Python**
