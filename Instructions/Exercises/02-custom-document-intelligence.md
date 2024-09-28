@@ -126,9 +126,10 @@ Agora você treinará o modelo usando os arquivos carregados na conta de armazen
         - Selecione *Continuar*.
     - Selecione *Criar projeto*
 
-1. Depois que o projeto for criado, selecione **Treinar** para treinar seu modelo. Use as seguintes configurações:
+1. Depois que o projeto for criado, no canto superior direito da tela, selecione **Treinar** para treinar o modelo. Use as seguintes configurações:
     - **ID do modelo**: *forneça um nome globalmente exclusivo (você precisará do nome da ID do modelo na próxima etapa)*. 
     - **Modo de criação**: modelo.
+1. Selecione **Ir para modelos**.
 1. O treinamento pode levar algum tempo. Você receberá uma notificação quando ele for concluído.
 
 ## Testar seu modelo personalizado de Informação de documentos
@@ -144,7 +145,7 @@ Agora você treinará o modelo usando os arquivos carregados na conta de armazen
     **Python**:
 
     ```powershell
-    pip install azure-ai-formrecognizer==3.3.0
+    pip install azure-ai-formrecognizer==3.3.3
     ```
 
 1. No Visual Studio Code, na pasta **Labfiles/02-custom-document-intelligence**, selecione a linguagem que você está usando. Edite o arquivo de configuração (**appsettings.json** ou **.env**, dependendo da sua preferência de linguagem) com os seguintes valores:
